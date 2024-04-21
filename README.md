@@ -40,11 +40,11 @@ In Visual Studio go to the tab Test and press Run All Tests. A Test Explorer Tab
 ## Travis CI Build Pipeline
 1. Sign up to https://www.travis-ci.com/ using you github account
 2. Inside the repository, make sure you have the **.travis.yml** file with the following information:
-_ language: csharp
+ language: csharp
  dotnet: 5.0
  script:
   - dotnet build NameSortingAlgorithm/NameSortingAlgorithm.sln
-  - dotnet test NameSortingAlgorithm/NameSortingAlgorithm.UnitTests/NameSortingAlgorithm.UnitTests.csproj_
+  - dotnet test NameSortingAlgorithm/NameSortingAlgorithm.UnitTests/NameSortingAlgorithm.UnitTests.csproj
 4. That’s it! Without providing any more information, Travis CI will execute a simple pipeline that:
  - Compiles our source code
  - Executes our tests
