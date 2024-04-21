@@ -49,3 +49,5 @@ While starting to work on this project, I faced a couple of challenges and this 
 - I wasn't familiar with testing packages for C# at all. After a detailed research on the internet, watching some youtube tutorials and asking a friend working in the industry, I decided to go with xunit and Shouldly. I followed the syntax based on the tutorials I watched.
 - It took me a while to decide on how the logic will be split across files, understanding interfaces and implementing the solution based on them. By studying the principles of interfaces and their role in defining contracts for classes, I was able to establish a clear structure for sorting strategies. The ISortingStrategies interface provided a standard method signature for sorting names, enabling flexibility and consistency in strategy implementations.
 
+An interesting and challenging project that helped me understand better C# code and syntax and how to write tests using xunit and Shouldly.
+
