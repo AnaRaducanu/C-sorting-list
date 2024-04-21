@@ -3,7 +3,7 @@
 The Name Sorter project is a program designed to sort a list of names first by last name and then by any given names the person may have. 
 The program reads a list of names from a file, sorts them accordingly, and outputs the sorted list to the screen as well as to a file named sorted-names-list.txt.
  
-# Documentation
+## Documentation
 The project structure consists of the following key components:
 1. **NameSortingAlgorithm:** Contains the _sorting algorithm implementation_(ISortingStrategies.cs, SortingStrategies.cs), _name-sorter.bat script file_, _Program.cs_, _sorted-names-list.txt_ and _unsorted-names-list.txt._
 2. **NameSortingAlgorithm.UnitTests:** Containing the file with unit tests _UnitTests.cs_, _inputTestFile.txt_ and _OutputTestFile.txt_
@@ -36,6 +36,19 @@ In Visual Studio go to the tab Test and press Run All Tests. A Test Explorer Tab
   - This test method validates the WriteToFile method in the Program class by ensuring that it writes a list of names to a file correctly.
   - It prepares a sample list of names, specifies the output file path, and then writes the names to the file.
   - The assertion reads the content of the output file and checks if it matches the list of names written.
+
+## Travis CI Build Pipeline
+1. Sign up to https://www.travis-ci.com/ using you github account
+2. Inside the repository, make sure you have the **.travis.yml** file with the following information:
+_ language: csharp
+ dotnet: 5.0
+ script:
+  - dotnet build NameSortingAlgorithm/NameSortingAlgorithm.sln
+  - dotnet test NameSortingAlgorithm/NameSortingAlgorithm.UnitTests/NameSortingAlgorithm.UnitTests.csproj_
+4. That’s it! Without providing any more information, Travis CI will execute a simple pipeline that:
+ - Compiles our source code
+ - Executes our tests
+ - Once we commit the .travis.yml file Travis will kick off our first build. Any further commits to master branch will trigger additional builds. The dashboard also allows us to manually trigger the pipeline at any time without requiring a commit or pull request.
 
 ## Contributing
 Contributions to the Name Sorter project are welcome. To contribute, follow these guidelines:
