@@ -1,1 +1,4 @@
 language: csharp
+script:
+  - dotnet build NameSortingAlgorithm/NameSortingAlgorithm.sln
+  - dotnet test NameSortingAlgorithm/NameSortingAlgorithm.UnitTests/NameSortingAlgorithm.UnitTests.csproj
