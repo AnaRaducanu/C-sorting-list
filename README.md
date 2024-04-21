@@ -64,3 +64,6 @@ While starting to work on this project, I faced a couple of challenges and this 
 
 An interesting and challenging project that helped me understand better C# code and syntax and how to write tests using xunit and Shouldly.
 
+## Side Note
+The program was build on Windows
+
