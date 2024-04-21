@@ -11,27 +11,33 @@ namespace NameSortingAlgorithm
     {
         static void Main(string[] args)
         {
+            // Checking if input file path is provided
             if (args.Length == 0)
             {
                 Console.WriteLine("Please provide the input file path.");
                 return;
             }
-                // Specifying the file path
-                string inputFile = args[0];
-            
-               var unsortedExtractedList = ReadFile(inputFile);
 
-            // Create an instance of SortingStrategies
+            // Getting the input file path from command line arguments
+            string inputFile = args[0];
+
+            // Reading unsorted names from the input file
+            var unsortedExtractedList = ReadFile(inputFile);
+
+            // Sorting the names by surname
             ISortingStrategies sorting = new SortingStrategies();
             var sortedList = sorting.SortBySurname(unsortedExtractedList);
 
-            // Write the sorted list to a new text file
-                string outputFilePath = Path.Combine(Path.GetDirectoryName(inputFile), "sorted-names-list.txt");
-                WriteToFile(sortedList, outputFilePath);
-                Console.ReadLine();
+            // Creating the output file path
+            string outputFilePath = Path.Combine(Path.GetDirectoryName(inputFile), "sorted-names-list.txt");
+            
+            // Writing the sorted names to the output file
+            WriteToFile(sortedList, outputFilePath);
+            
+            Console.ReadLine();
         }
-        
-        // Method for inputFile
+
+        // Function to read names from a file
         public static List<string> ReadFile(string inputFile)
         {
             List<string> unsortedExtractedList = new List<string>();
@@ -47,7 +53,7 @@ namespace NameSortingAlgorithm
             return unsortedExtractedList;
         }
 
-        // Method for WriteToFile
+        // Function to write sorted names to a file
         public static void WriteToFile(List<string> sortedList, string outputFilePath)
         {
             using (StreamWriter sw = new StreamWriter(outputFilePath))
