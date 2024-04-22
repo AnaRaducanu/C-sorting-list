@@ -1,5 +1,5 @@
 ﻿@echo off
-cd /d "%~dp0bin\Debug\net5.0"
-start "" NameSortingAlgorithm.exe ..\..\..\unsorted-names-list.txt
 
+set "relativePath=%~1"
 
+start "" "%~dp0bin\Debug\net5.0\NameSortingAlgorithm.exe" "%relativePath%"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sortingChallenge\\NameSortingAlgorithm\\NameSortingAlgorithm.UnitTests\\NameSortingAlgorithm.UnitTests.csproj": {}
+    "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sorting challenge\\NameSortingAlgorithm\\NameSortingAlgorithm.UnitTests\\NameSortingAlgorithm.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sortingChallenge\\NameSortingAlgorithm\\NameSortingAlgorithm.UnitTests\\NameSortingAlgorithm.UnitTests.csproj": {
+    "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sorting challenge\\NameSortingAlgorithm\\NameSortingAlgorithm.UnitTests\\NameSortingAlgorithm.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sortingChallenge\\NameSortingAlgorithm\\NameSortingAlgorithm.UnitTests\\NameSortingAlgorithm.UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sorting challenge\\NameSortingAlgorithm\\NameSortingAlgorithm.UnitTests\\NameSortingAlgorithm.UnitTests.csproj",
         "projectName": "NameSortingAlgorithm.UnitTests",
-        "projectPath": "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sortingChallenge\\NameSortingAlgorithm\\NameSortingAlgorithm.UnitTests\\NameSortingAlgorithm.UnitTests.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sorting challenge\\NameSortingAlgorithm\\NameSortingAlgorithm.UnitTests\\NameSortingAlgorithm.UnitTests.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sortingChallenge\\NameSortingAlgorithm\\NameSortingAlgorithm.UnitTests\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sorting challenge\\NameSortingAlgorithm\\NameSortingAlgorithm.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sortingChallenge\\NameSortingAlgorithm\\NameSortingAlgorithm\\NameSortingAlgorithm.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sortingChallenge\\NameSortingAlgorithm\\NameSortingAlgorithm\\NameSortingAlgorithm.csproj"
+              "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sorting challenge\\NameSortingAlgorithm\\NameSortingAlgorithm\\NameSortingAlgorithm.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sorting challenge\\NameSortingAlgorithm\\NameSortingAlgorithm\\NameSortingAlgorithm.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sortingChallenge\\NameSortingAlgorithm\\NameSortingAlgorithm\\NameSortingAlgorithm.csproj": {
+    "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sorting challenge\\NameSortingAlgorithm\\NameSortingAlgorithm\\NameSortingAlgorithm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sortingChallenge\\NameSortingAlgorithm\\NameSortingAlgorithm\\NameSortingAlgorithm.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sorting challenge\\NameSortingAlgorithm\\NameSortingAlgorithm\\NameSortingAlgorithm.csproj",
         "projectName": "NameSortingAlgorithm",
-        "projectPath": "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sortingChallenge\\NameSortingAlgorithm\\NameSortingAlgorithm\\NameSortingAlgorithm.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sorting challenge\\NameSortingAlgorithm\\NameSortingAlgorithm\\NameSortingAlgorithm.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sortingChallenge\\NameSortingAlgorithm\\NameSortingAlgorithm\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sorting challenge\\NameSortingAlgorithm\\NameSortingAlgorithm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

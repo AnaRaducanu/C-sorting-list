@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QpQ492KcxXJLQxTP8sNCWZpWqk4Uzr78C6RvZmvGI/LVVBQ1EmM/Xow2rmbg5wBwUATNTy4WJwNZBUMP/zV5ow==",
+  "dgSpecHash": "rp358ybinDS8FBzVQSiIE2VkdMJOw2rEov6326AYNi1h8aqhHm4sQA+ZwAPz6DYSJ1bJZqTrurZgkE0pouY/pA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sortingChallenge\\NameSortingAlgorithm\\NameSortingAlgorithm.UnitTests\\NameSortingAlgorithm.UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\SOC Bootcamp\\sorting challenge\\NameSortingAlgorithm\\NameSortingAlgorithm.UnitTests\\NameSortingAlgorithm.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\diffengine\\11.3.0\\diffengine.11.3.0.nupkg.sha512",

@@ -20,6 +20,7 @@ namespace NameSortingAlgorithm
 
             // Getting the input file path from command line arguments
             string inputFile = args[0];
+            Console.WriteLine(inputFile);
 
             // Reading unsorted names from the input file
             var unsortedExtractedList = ReadFile(inputFile);
@@ -30,6 +31,7 @@ namespace NameSortingAlgorithm
 
             // Creating the output file path
             string outputFilePath = Path.Combine(Path.GetDirectoryName(inputFile), "sorted-names-list.txt");
+            Console.WriteLine(outputFilePath);
             
             // Writing the sorted names to the output file
             WriteToFile(sortedList, outputFilePath);
