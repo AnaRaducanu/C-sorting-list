@@ -14,7 +14,7 @@ The project structure consists of the following key components:
 3. Open the NameSortingAlgorithm.sln with Visual Studio
 4. Ensure you have the necessary dependencies installed.
 5. The application is based on a command line user interface. In the CLI, please make sure you are into the project directory NameSortingAlgorithm where the "name-sorter.bat" script is located.
-6. To use the Name Sorter program, execute the following command: **name-sorter ./unsorted-names-list.txt.** This command will sort the names from the unsorted-names-list.txt file and display the sorted list on the screen. 
+6. To use the Name Sorter program, execute the following command: **name-sorter ./unsorted-names-list.txt.** if the unsorted-names-list.txt file is located in the same directory as the name-sorter.bat. Otherwise, ensure that the given .txt file is relative to the directory you are currently in, i.e. where the name-sorter.bat is. This command will sort the names from the unsorted-names-list.txt file and display the sorted list on the screen. 
 
 ## Output
 The program will display the sorted list of names on the screen and write the sorted names to a file named **sorted-names-list.txt** in the working directory.
